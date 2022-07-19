@@ -26,11 +26,11 @@ export default function Home() {
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
               <div class='row'>
               <Image  src={profilePic}></Image>
-              envie o seu processo operacional
+              <div class='row'>envie o seu processo operacional</div>
               </div>
               <div class='row'>
               <Image  src={profilePic2}></Image>
-              criamos a solução
+              <div class='row'>criamos a solução</div>
               </div>
             </div>
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">Price</div>
