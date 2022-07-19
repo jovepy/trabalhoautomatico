@@ -11,9 +11,7 @@ export default function Home() {
   return (
     <div className='bg-white'>
     <div className='contairner-fluid'>
-      <div className='row'>
-          <div className='col'></div>
-          <div className='col-6'>
+      
           <ul className="nav nav-pills nav-fill" id="pills-tab" role="tablist">
             <li className="nav-item" role="presentation">
               <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
@@ -29,15 +27,18 @@ export default function Home() {
             <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
               <br></br>
               <div className='row'>
-              <Image loader={myLoader} src='./atencaocliente1.gif' alt="Rosto de Jovepy" width={1920} height={1080} className="profile"/>
-              <div className='row'><br></br></div>
+                <p className='text-center'>
+              <Image loader={myLoader} src='./atencaocliente1.gif' alt="Rosto de Jovepy" width={480} height={270} className="profile"/>
+              </p>
               </div>
               <div className='row'>
-              <Image loader={myLoader} src='./atencaocliente2.gif' alt="Rosto de Jovepy" width={1920} height={1080} className="profile"/>
-              <div className='row'></div>
+                <p className='text-center'>
+              <Image loader={myLoader} src='./atencaocliente2.gif' alt="Rosto de Jovepy" width={480} height={270} className="profile"/>
+                </p>
               </div>
               
-            </div>
+
+          </div>
             <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex="0">
               comeca aqui
               
@@ -108,9 +109,6 @@ export default function Home() {
             </div>
           </div>
           </div>
-        <div className='col'></div>
     </div>
-    </div>
-</div>
   )
 }
