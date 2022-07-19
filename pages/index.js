@@ -4,6 +4,9 @@ import profilePic from '../public/atencaocliente1.gif'
 import profilePic2 from '../public/atencaocliente2.gif'
 import Image from 'next/image'
 
+const myLoader = ({ src, width, quality }) => {
+  return `./${src}?w=${width}&q=${quality || 75}`
+}
 
 export default function Home() {
   return (
@@ -25,13 +28,14 @@ export default function Home() {
           <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
               <div class='row'>
-              <Image  src={profilePic}></Image>
+              <Image loader={myLoader} src={profilePic} alt="Rosto de Jovepy" width={150} height={150} class="profile"/>
               <div class='row'>envie o seu processo operacional</div>
               </div>
               <div class='row'>
-              <Image  src={profilePic2}></Image>
+              <Image loader={myLoader} src={profilePic2} alt="Rosto de Jovepy" width={150} height={150} class="profile"/>
               <div class='row'>criamos a solução</div>
               </div>
+              
             </div>
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">Price</div>
             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">contact</div>
