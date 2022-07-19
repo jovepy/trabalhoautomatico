@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react'
 import profilePic from '../public/atencaocliente1.gif'
-import profilePic from '../public/atencaocliente2.gif'
+import profilePic2 from '../public/atencaocliente2.gif'
 import Image from 'next/image'
 
 
@@ -28,7 +28,7 @@ export default function Home() {
               <Image  src={profilePic}></Image>
               </div>
               <div class='row'>
-              <Image  src={profilePic}></Image>
+              <Image  src={profilePic2}></Image>
               </div>
             </div>
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">Price</div>
