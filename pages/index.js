@@ -43,7 +43,7 @@ export default function Home() {
               
               <div className="row">
                 <div className="col-4">
-                  <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                  <nav id="navbar-example3" className="h-100 flex-column align-items-stretch pe-4 border-end">
                     <nav className="nav nav-pills flex-column">
                       <a className="nav-link" href="#item-1">Item 1</a>
                       <nav className="nav nav-pills flex-column">
@@ -61,7 +61,7 @@ export default function Home() {
                 </div>
 
                 <div className="col-8">
-                  <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" className="scrollspy-example-2" tabindex="0">
+                  <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" className="scrollspy-example-2" tabIndex="0">
                     <div id="item-1">
                       <h4>Item 1</h4>
                       <p>...</p>
