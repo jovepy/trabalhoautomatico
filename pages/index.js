@@ -27,7 +27,7 @@ export default function Home() {
             </li>
           </ul>
           <div className="tab-content" id="pills-tabContent">
-            <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+            <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
               <div className='row'>
               <Image loader={myLoader} src='./atencaocliente1.gif' alt="Rosto de Jovepy" width={150} height={150} className="profile"/>
               <div className='row'>envie o seu processo operacional</div>
@@ -38,8 +38,8 @@ export default function Home() {
               </div>
               
             </div>
-            <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">Price</div>
-            <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">contact</div>
+            <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex="0">Price</div>
+            <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabIndex="0">contact</div>
           </div>
           </div>
         <div className='col'></div>
