@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react'
-import profilePic from '../public/atencaocliente1.gif'
-import profilePic2 from '../public/atencaocliente2.gif'
+//import profilePic from '../public/atencaocliente1.gif'
+//import profilePic2 from '../public/atencaocliente2.gif'
 import Image from 'next/image'
 
 const myLoader = ({ src, width, quality }) => {
@@ -28,11 +28,11 @@ export default function Home() {
           <div class="tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
               <div class='row'>
-              <Image loader={myLoader} src={profilePic} alt="Rosto de Jovepy" width={150} height={150} class="profile"/>
+              <Image loader={myLoader} src='./atencaocliente1.gif' alt="Rosto de Jovepy" width={150} height={150} class="profile"/>
               <div class='row'>envie o seu processo operacional</div>
               </div>
               <div class='row'>
-              <Image loader={myLoader} src={profilePic2} alt="Rosto de Jovepy" width={150} height={150} class="profile"/>
+              <Image loader={myLoader} src='./atencaocliente2.gif' alt="Rosto de Jovepy" width={150} height={150} class="profile"/>
               <div class='row'>criamos a solução</div>
               </div>
               
