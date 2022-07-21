@@ -109,6 +109,9 @@ export default function Home() {
             </div>
           </div>
           </div>
+          <footer>
+            <div> aaaa</div>
+          </footer>
     </div>
   )
 }
