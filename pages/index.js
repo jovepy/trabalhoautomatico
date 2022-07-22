@@ -28,9 +28,9 @@ export default function Home() {
           <br></br>
           <div className='row'>
             <p className='text-center'>
-              <h2>você envia o processo operacional</h2>
+              <h2>Você envia o processo operacional</h2>
               <Image loader={myLoader} src='./atencaocliente2.gif' alt="Criamos a sua solulçao" width={480} height={270} />
-              <h2>Uma solução com Python é desenvolvida</h2>
+              <h2>e uma solução com Python é desenvolvida</h2>
             </p>
 
           </div>
