@@ -10,16 +10,17 @@ const myLoader = ({ src, width, quality }) => {
 export default function Home() {
   return (
     <div className='bg-white'>
+    <div className='text-center'>
     <div className='contairner-fluid'>      
       <ul className="nav nav-pills nav-fill" id="pills-tab" role="tablist">
         <li className="nav-item" role="presentation">
           <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Início</button>
         </li>
         <li className="nav-item" role="presentation">
-          <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Orçamento e Funcionamento</button>
+          <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Orçamento</button>
         </li>
         <li className="nav-item" role="presentation">
-          <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+          <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contato</button>
         </li>
       </ul>
       <div className="tab-content" id="pills-tabContent">
@@ -144,5 +145,6 @@ export default function Home() {
             </div>
           </footer>
         </div>
+      </div>
   )
 }
