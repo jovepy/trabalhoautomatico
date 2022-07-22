@@ -10,6 +10,16 @@ body {
 
 }
 
+h2 {
+  background: #faad38;
+  background: -webkit-linear-gradient(to right, #faad38, #1e235f);
+  background: linear-gradient(to right, #faad38, #1e235f);
+  -webkit-background-clip: text;
+  background-clip: text; 
+  color: transparent;
+}
+
+
 a {
   color: inherit;
   text-decoration: none;
