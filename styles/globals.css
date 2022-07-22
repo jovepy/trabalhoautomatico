@@ -9,9 +9,9 @@ body {
 }
 
 h2 {
-  background: #faad38;
-  background: -webkit-linear-gradient(to right, #faad38, #1e235f);
-  background: linear-gradient(to right, #faad38, #1e235f);
+  background: #696969;
+  background: -webkit-linear-gradient(to right, #696969, #696969);
+  background: linear-gradient(to right, #696969, #696969);
   -webkit-background-clip: text;
   background-clip: text; 
   color: transparent;
