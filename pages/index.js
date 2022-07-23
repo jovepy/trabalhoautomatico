@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import Image from 'next/image';
 import Router from 'next/router';
-import Head from 'next/head';
 
 const myLoader = ({ src, width, quality }) => {
   return `./${src}?w=${width}&q=${quality || 75}`
@@ -11,9 +10,6 @@ const myLoader = ({ src, width, quality }) => {
 export default function Home() {
   return (
     <div>
-      <Head>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/css/uikit.min.css" />
-      </Head>
       <div className='text-center'>
       <nav>
         <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
@@ -72,8 +68,6 @@ export default function Home() {
       </div>
       </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/js/uikit-icons.min.js"></script>
     <p className="card-text text-center"><small className="text-muted">Criado por Jove.py</small></p>
     </div>
   )
