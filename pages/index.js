@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </nav>
       <div className="tab-content" id="nav-tabContent">
-        <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+        <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabIndex="0">
         <div className='row'><br></br></div> 
         <div className="card mb-3">
           <div className="row g-0">
@@ -45,9 +45,9 @@ export default function Home() {
         <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabIndex="0">...</div>
         <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabIndex="0">...</div>
       </div>
-      <footer class="align-bottom">
-      <div class="card">
-        <div class="card-body">
+      <footer className="align-bottom">
+      <div className="card">
+        <div className="card-body">
         <div className='row'><br></br></div>
               <div className="container text-center">
                 <div className='row'>
@@ -74,7 +74,7 @@ export default function Home() {
     </div>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/js/uikit-icons.min.js"></script>
-    <p class="card-text text-center"><small class="text-muted">Criado por Jove.py</small></p>
+    <p className="card-text text-center"><small className="text-muted">Criado por Jove.py</small></p>
     </div>
   )
 }
