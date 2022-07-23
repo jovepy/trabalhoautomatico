@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/css/uikit.min.css" />
       </Head>
-      <div className='uk-card uk-card-default uk-card-body uk-animation-scale-up uk-transform-origin-top-center'>
+      <div className='text-center'>
       <nav>
         <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
           <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Início</button>
@@ -74,7 +74,7 @@ export default function Home() {
     </div>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.1/dist/js/uikit-icons.min.js"></script>
-    <p class="card-text"><small class="text-muted">Criado por Jove.py</small></p>
+    <p class="card-text text-center"><small class="text-muted">Criado por Jove.py</small></p>
     </div>
   )
 }
