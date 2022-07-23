@@ -11,12 +11,13 @@ const myLoader = ({ src, width, quality }) => {
 export default function Home() {
   return (
     <div>
-      <div className='text-center'>
+      <div className='text-center p-2'>
       <nav>
         <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
           <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Início</button>
           <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Orçamento</button>
           <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contato</button>
+
         </div>
       </nav>
       <div className="tab-content" id="nav-tabContent">
@@ -39,12 +40,12 @@ export default function Home() {
 
         </div>
         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabIndex="0">
-          <div className='text-center'>
+          <div className='p-2'>
 
           <div className='row'><br></br></div> 
            <div className="row">
             <div className="col-4">
-              <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+              <nav id="navbar-example3" className="h-100 flex-column align-items-stretch pe-4 border-end">
                 <nav className="nav nav-pills flex-column">
                   <a className="nav-link" href="#item-1">Item 1</a>
                   <nav className="nav nav-pills flex-column">
@@ -100,7 +101,7 @@ export default function Home() {
 
 
         </div>
-        <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabIndex="0"> 
+        <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact" tabIndex="0"> 
         <div className='position-relative top-50 start-50 translate-middle'>
         <div className='row'><br></br></div>
         <div className='row'><br></br></div>
@@ -122,12 +123,11 @@ export default function Home() {
         
         
         </div>
-        </div>
       
               
         
       </div>
-      <footer className="align-bottom">
+      <footer>
       <div className="card">
         <div className="card-body">
         <div className='row'><br></br></div>
@@ -155,6 +155,7 @@ export default function Home() {
       </footer>
     </div>
     <p className="card-text text-center"><small className="text-muted">Criado por Jove.py</small></p>
+    </div>
     </div>
   )
 }
