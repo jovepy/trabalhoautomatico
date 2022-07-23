@@ -3,6 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import Router from 'next/router';
 
+
 const myLoader = ({ src, width, quality }) => {
   return `./${src}?w=${width}&q=${quality || 75}`
 }
@@ -38,8 +39,32 @@ export default function Home() {
 
         </div>
         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabIndex="0">...</div>
-        <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabIndex="0">...</div>
-        <div className="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabIndex="0">...</div>
+        <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabIndex="0"> 
+        <div className='position-relative top-50 start-50 translate-middle'>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <div className='row'><br></br></div>
+        <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
+        
+        
+        </div>
+        </div>
+      
+              
+        
       </div>
       <footer className="align-bottom">
       <div className="card">
