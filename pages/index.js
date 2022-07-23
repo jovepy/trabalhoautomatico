@@ -30,10 +30,11 @@ export default function Home() {
           <div className='row'><br></br></div>
           
             <div className='position-absolute top-50 start-50 translate-middle'>
+              <div className='text-center'>
               <h2>Você envia o processo operacional</h2>
               <Image loader={myLoader} src='./atencaocliente2.gif' alt="Criamos a sua solulçao" width={480} height={270} />
               <h2>e uma solução com Python é desenvolvida</h2>
-            
+              </div>
             </div>
           </div>
         </div>
