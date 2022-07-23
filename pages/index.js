@@ -29,12 +29,12 @@ export default function Home() {
           <div className='row'>
           <div className='row'><br></br></div>
           
-            <p className='text-center'>
+            <div className='position-absolute top-50 start-50 translate-middle'>
               <h2>Você envia o processo operacional</h2>
               <Image loader={myLoader} src='./atencaocliente2.gif' alt="Criamos a sua solulçao" width={480} height={270} />
               <h2>e uma solução com Python é desenvolvida</h2>
-            </p>
-
+            
+            </div>
           </div>
         </div>
         <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabIndex="0">    
