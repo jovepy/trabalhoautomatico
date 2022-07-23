@@ -26,8 +26,24 @@ export default function Home() {
       <div className="tab-content" id="pills-tabContent">
         <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabIndex="0">
           <br></br>
-          <div className='row'>
           <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>  
+          <div className='row'><br></br></div>
+          <div className='row'>
           
             <div className='position-absolute top-50 start-50 translate-middle'>
               <div className='text-center'>
@@ -120,6 +136,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        
           <footer>
             <div className='bg-primary bg-gradient'>
               <div className='row'><br></br></div>

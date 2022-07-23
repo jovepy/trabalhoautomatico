@@ -7,13 +7,7 @@ body {
   overflow-y: visible;
 
 }
-footer {
-  position:absolute;
-  bottom:0;
-  width:100%;
-  height: auto;
-     /* Height of the footer */
-}
+
 
 h2 {
   background: #696969;
