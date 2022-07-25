@@ -46,10 +46,10 @@ export default function Home() {
           <div className="col-4 p-2 text-right">
             <div id="list-example" className="list-group">
               <div className='text-sm-center d-inline-block text-truncate'>
-              <a className="list-group-item list-group-item-action" href="#list-item-1">Solicitação</a>
-              <a className="list-group-item list-group-item-action" href="#list-item-2">Retorno</a>
-              <a className="list-group-item list-group-item-action" href="#list-item-3">Contrato</a>
-              <a className="list-group-item list-group-item-action" href="#list-item-4">Garantias</a>
+              <a className="list-group-item list-group-item-action p-1" href="#list-item-1">Solicitação</a>
+              <a className="list-group-item list-group-item-action p-1" href="#list-item-2">Retorno</a>
+              <a className="list-group-item list-group-item-action p-1" href="#list-item-3">Contrato</a>
+              <a className="list-group-item list-group-item-action p-1" href="#list-item-4">Garantias</a>
               </div>
             </div>
           </div>
