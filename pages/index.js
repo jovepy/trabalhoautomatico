@@ -47,17 +47,17 @@ export default function Home() {
             <div className="col-4">
               <nav id="navbar-example3" className="h-100 flex-column align-items-stretch pe-4 border-end">
                 <nav className="nav nav-pills flex-column">
-                  <a className="nav-link" href="#item-1">Definições preliminares</a>
+                  <a className="nav-link" href="#item-1">Definições</a>
                   <nav className="nav nav-pills flex-column">
-                    <a className="nav-link ms-2" href="#item-2">Da Solicitação do orçamento</a>
-                    <a className="nav-link ms-2 my-1" href="#item-2-1">Documentos Necessários</a>
+                    <a className="nav-link ms-2" href="#item-2">Solicitação</a>
+                    <a className="nav-link ms-2 my-1" href="#item-2-1">Documentos</a>
                   </nav>
-                  <a className="nav-link ms-2 my-2" href="#item-2-2">Prazo do exame e resposta efetiva</a>
-                  <a className="nav-link" href="#item-3">Do Projeto</a>
+                  <a className="nav-link ms-2 my-2" href="#item-2-2">Prazo</a>
+                  <a className="nav-link" href="#item-3">O Projeto</a>
                   <nav className="nav nav-pills flex-column">
-                    <a className="nav-link ms-3 my-1" href="#item-3-1">Planejamento e Cronograma</a>
-                    <a className="nav-link ms-3 my-1" href="#item-3-2">Do reajuste</a>
-                    <a className="nav-link ms-3 my-2" href="#item-3-3">Das garantias</a>
+                    <a className="nav-link ms-3 my-1" href="#item-3-1">Plano</a>
+                    <a className="nav-link ms-3 my-1" href="#item-3-2">Reajuste</a>
+                    <a className="nav-link ms-3 my-2" href="#item-3-3">Garantias</a>
                   </nav>
                 </nav>
               </nav>
