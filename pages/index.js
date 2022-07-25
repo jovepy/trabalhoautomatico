@@ -43,9 +43,9 @@ export default function Home() {
         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tableIndex="0">
         <div className='row'><br></br></div>
         <div className="row">            
-          <div className="col-3 p-2">
+          <div className="col-4 p-2 text-right">
             <div id="list-example" className="list-group">
-              <div className='p-2 text-sm-center'>
+              <div className='text-sm-center d-inline-block text-truncate'>
               <a className="list-group-item list-group-item-action" href="#list-item-1">Solicitação</a>
               <a className="list-group-item list-group-item-action" href="#list-item-2">Retorno</a>
               <a className="list-group-item list-group-item-action" href="#list-item-3">Contrato</a>
@@ -53,7 +53,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="col-9 p-2">
+          <div className="col-6 p-2">
             
             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" className="scrollspy-example" tabIndex="0">
               <h4 id="list-item-1">Solicitação</h4>
