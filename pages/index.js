@@ -42,18 +42,18 @@ export default function Home() {
         </div>
         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tableIndex="0">
         <div className='row'><br></br></div>
-        <div class="row">
+        <div className="row">
                     
-          <div class="col-4">
-            <div id="list-example" class="list-group">
-              <a class="list-group-item list-group-item-action" href="#list-item-1">Solicitação</a>
-              <a class="list-group-item list-group-item-action" href="#list-item-2">Retorno</a>
-              <a class="list-group-item list-group-item-action" href="#list-item-3">Contrato</a>
-              <a class="list-group-item list-group-item-action" href="#list-item-4">Garantias</a>
+          <div className="col-4">
+            <div id="list-example" className="list-group">
+              <a className="list-group-item list-group-item-action" href="#list-item-1">Solicitação</a>
+              <a className="list-group-item list-group-item-action" href="#list-item-2">Retorno</a>
+              <a className="list-group-item list-group-item-action" href="#list-item-3">Contrato</a>
+              <a className="list-group-item list-group-item-action" href="#list-item-4">Garantias</a>
             </div>
           </div>
-          <div class="col-8">
-            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+          <div className="col-8">
+            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" className="scrollspy-example" tabIndex="0">
               <h4 id="list-item-1">Solicitação</h4>
               <p>SolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitação</p>
               <h4 id="list-item-2">Retorno</h4>
