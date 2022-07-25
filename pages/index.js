@@ -47,16 +47,17 @@ export default function Home() {
             <div className="col-4">
               <nav id="navbar-example3" className="h-100 flex-column align-items-stretch pe-4 border-end">
                 <nav className="nav nav-pills flex-column">
-                  <a className="nav-link" href="#item-1">Item 1</a>
+                  <a className="nav-link" href="#item-1">Definições preliminares</a>
                   <nav className="nav nav-pills flex-column">
-                    <a className="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
-                    <a className="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                    <a className="nav-link ms-3 my-1" href="#item-2">Da Solicitação do orçamento</a>
+                    <a className="nav-link ms-3 my-1" href="#item-2-1">Documentos Necessários</a>
                   </nav>
-                  <a className="nav-link" href="#item-2">Item 2</a>
-                  <a className="nav-link" href="#item-3">Item 3</a>
+                  <a className="nav-link" href="#item-2-2">Prazo do exame e resposta efetiva</a>
+                  <a className="nav-link" href="#item-3">Do Projeto</a>
                   <nav className="nav nav-pills flex-column">
-                    <a className="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
-                    <a className="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                    <a className="nav-link ms-3 my-1" href="#item-3-1">Planejamento e Cronograma</a>
+                    <a className="nav-link ms-3 my-1" href="#item-3-2">Do reajuste</a>
+                    <a className="nav-link ms-3 my-2" href="#item-3-3">Das garantias</a>
                   </nav>
                 </nav>
               </nav>
@@ -65,8 +66,16 @@ export default function Home() {
             <div className="col-8">
               <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" className="scrollspy-example-2" tabIndex="0">
                 <div id="item-1">
-                  <h4>Item 1</h4>
-                  <p>...</p>
+                  <h4>Definições preliminares</h4>
+                  <p>
+                  Python: linguagem de programação de alto nível e open-source, criada em 1989,  por Guido Van Rossum, no Instituto de Pesquisa Nacional para Matemática e Ciência da Computação, nos Países baixos, para aumentar a produtividade do programador. Atualmente é utilizada para automação, análise de dados, machine learning, entre outros instrumentos populares entre Start-ups e Fintechs.
+                  </p>
+                  <p>POP - Procedimento Operacional Padrão: documento que informa como determinada atividade deve ser executada.</p>
+
+                  <p>Scrum: conjunto de práticas e princípios que proporcionam o desenvolvimento ágil de produtos.</p>
+
+                  <p>Sprint: período de tempo para alcançar uma meta previamente estabelecida.</p>
+                  
                 </div>
                 <div id="item-1-1">
                   <h5>Item 1-1</h5>
@@ -124,9 +133,8 @@ export default function Home() {
         
         </div>
       
-              
         
-      </div>
+      </div>  
       <footer>
       <div className="card">
         <div className="card-body">
