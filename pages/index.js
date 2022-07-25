@@ -11,7 +11,7 @@ const myLoader = ({ src, width, quality }) => {
 export default function Home() {
   return (
     <div>
-      <div className='text-right p-2'>
+      <div className='text-right p-4'>
       <nav>
         <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
           <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Início</button>
@@ -40,24 +40,24 @@ export default function Home() {
 
         </div>
         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabIndex="0">
-          <div className='p-2'>
+          <div className='p-4'>
 
           <div className='row'><br></br></div> 
            <div className="row">
             <div className="col-4">
               <nav id="navbar-example3" className="h-100 flex-column align-items-stretch pe-4 border-end">
                 <nav className="nav nav-pills flex-column">
-                  <a className="nav-link" href="#item-1">Definições</a>
+                  <a className="nav-link" href="#item-1">1</a>
                   <nav className="nav nav-pills flex-column">
-                    <a className="nav-link ms-2" href="#item-2">Solicitação</a>
-                    <a className="nav-link ms-2 my-1" href="#item-2-1">Documentos</a>
+                    <a className="nav-link ms-2" href="#item-2">2</a>
+                    <a className="nav-link ms-2 my-1" href="#item-2-1">2.1</a>
                   </nav>
-                  <a className="nav-link ms-2 my-2" href="#item-2-2">Prazo</a>
-                  <a className="nav-link" href="#item-3">O Projeto</a>
+                  <a className="nav-link ms-2 my-2" href="#item-2-2">2.2</a>
+                  <a className="nav-link" href="#item-3">3</a>
                   <nav className="nav nav-pills flex-column">
-                    <a className="nav-link ms-3 my-1" href="#item-3-1">Plano</a>
-                    <a className="nav-link ms-3 my-1" href="#item-3-2">Reajuste</a>
-                    <a className="nav-link ms-3 my-2" href="#item-3-3">Garantias</a>
+                    <a className="nav-link ms-3 my-1" href="#item-3-1">3.1</a>
+                    <a className="nav-link ms-3 my-1" href="#item-3-2">3.2</a>
+                    <a className="nav-link ms-3 my-2" href="#item-3-3">3.3</a>
                   </nav>
                 </nav>
               </nav>
