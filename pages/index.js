@@ -45,14 +45,15 @@ export default function Home() {
         <div className="row">            
           <div className="col-4">
             <div id="list-example" className="list-group">
-              
+              <div className='p-2 text-sm-center'>
               <a className="list-group-item list-group-item-action" href="#list-item-1">Solicitação</a>
               <a className="list-group-item list-group-item-action" href="#list-item-2">Retorno</a>
               <a className="list-group-item list-group-item-action" href="#list-item-3">Contrato</a>
               <a className="list-group-item list-group-item-action" href="#list-item-4">Garantias</a>
+              </div>
             </div>
           </div>
-          <div className="col-8">
+          <div className="col-6">
             
             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" className="scrollspy-example" tabIndex="0">
               <h4 id="list-item-1">Solicitação</h4>
