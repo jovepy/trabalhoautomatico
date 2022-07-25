@@ -11,7 +11,7 @@ const myLoader = ({ src, width, quality }) => {
 export default function Home() {
   return (
     <div>
-      <div className='text-right p-2'>
+      <div className='text-center p-2'>
       <nav>
         <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
           <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Início</button>
