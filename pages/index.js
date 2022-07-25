@@ -52,7 +52,7 @@ export default function Home() {
                     <a className="nav-link ms-2" href="#item-2">Da Solicitação do orçamento</a>
                     <a className="nav-link ms-2 my-1" href="#item-2-1">Documentos Necessários</a>
                   </nav>
-                  <a className="nav-link" href="#item-2-2">Prazo do exame e resposta efetiva</a>
+                  <a className="nav-link ms-2 my-2" href="#item-2-2">Prazo do exame e resposta efetiva</a>
                   <a className="nav-link" href="#item-3">Do Projeto</a>
                   <nav className="nav nav-pills flex-column">
                     <a className="nav-link ms-3 my-1" href="#item-3-1">Planejamento e Cronograma</a>
