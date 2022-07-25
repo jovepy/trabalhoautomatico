@@ -78,12 +78,14 @@ export default function Home() {
           <div className='row'><br></br></div>
           <div className='row'><br></br></div>
           <div className='row'><br></br></div>
-          
-          
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
           
           <div className='position-relative top-50 start-50 translate-middle text-center'>
           <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
           </div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
           <div className='row'><br></br></div>
           <div className='row'><br></br></div>
           <div className='row'><br></br></div>
