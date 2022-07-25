@@ -12,16 +12,16 @@ export default function Home() {
   return (
     <div>
       <div className='text-center p-2'>
+      
       <nav>
         <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
           <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Início</button>
           <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Orçamento</button>
           <button className="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contato</button>
-
         </div>
       </nav>
       <div className="tab-content" id="nav-tabContent">
-        <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabIndex="0">
+        <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">        
         <div className='row'><br></br></div> 
         <div className="card mb-3">
           <div className="row g-0">
@@ -29,115 +29,79 @@ export default function Home() {
             <Image className="img-fluid rounded-start" loader={myLoader} src='./atencaocliente2.gif' alt="Criamos a sua solulçao" width={480} height={270} />
             </div>
             <div className="col-md-8">
-              <div className="card-body align-middle">
-                <div className='row'><br></br></div>
+              <div className="card-body align-middle ">
+              <div className='row'><br></br></div>
+              <div className='row'><br></br></div>
+              <div className='row'><br></br></div>
                 <h5 className="card-title text-start">Automação de processos operacionais com Python</h5>
                 <p className="card-text text-start align-middle">A empresa descreve o processo operacional, analisamos o caso e, se for viável, automatizamos o processo. Simples, prático e Pythônico.</p>
               </div>
             </div>
           </div>
+          </div>
         </div>
-
-        </div>
-        <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabIndex="0">
-          <div className='p-2'>
-
-          <div className='row'><br></br></div> 
-           <div className="row">
-            <div className="col-4">
-              <nav id="navbar-example3" className="h-100 flex-column align-items-stretch pe-4 border-end">
-                <nav className="nav nav-pills flex-column">
-                  <a className="nav-link" href="#item-1">1</a>
-                  <nav className="nav nav-pills flex-column">
-                    <a className="nav-link ms-2" href="#item-2">2</a>
-                    <a className="nav-link ms-2 my-1" href="#item-2-1">2.1</a>
-                  </nav>
-                  <a className="nav-link ms-2 my-2" href="#item-2-2">2.2</a>
-                  <a className="nav-link" href="#item-3">3</a>
-                  <nav className="nav nav-pills flex-column">
-                    <a className="nav-link ms-3 my-1" href="#item-3-1">3.1</a>
-                    <a className="nav-link ms-3 my-1" href="#item-3-2">3.2</a>
-                    <a className="nav-link ms-3 my-2" href="#item-3-3">3.3</a>
-                  </nav>
-                </nav>
-              </nav>
-            </div>
-
-            <div className="col-8">
-              <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" className="scrollspy-example-2" tabIndex="0">
-                <div id="item-1">
-                  <h4>Definições preliminares</h4>
-                  <p>
-                  Python: linguagem de programação de alto nível e open-source, criada em 1989,  por Guido Van Rossum, no Instituto de Pesquisa Nacional para Matemática e Ciência da Computação, nos Países baixos, para aumentar a produtividade do programador. Atualmente é utilizada para automação, análise de dados, machine learning, entre outros instrumentos populares entre Start-ups e Fintechs.
-                  </p>
-                  <p>POP - Procedimento Operacional Padrão: documento que informa como determinada atividade deve ser executada.</p>
-
-                  <p>Scrum: conjunto de práticas e princípios que proporcionam o desenvolvimento ágil de produtos.</p>
-
-                  <p>Sprint: período de tempo para alcançar uma meta previamente estabelecida.</p>
-                  
-                </div>
-                <div id="item-1-1">
-                  <h5>Item 1-1</h5>
-                  <p>...</p>
-                </div>
-                <div id="item-1-2">
-                  <h5>Item 1-2</h5>
-                  <p>...</p>
-                </div>
-                <div id="item-2">
-                  <h4>Item 2</h4>
-                  <p>...</p>
-                </div>
-                <div id="item-3">
-                  <h4>Item 3</h4>
-                  <p>...</p>
-                </div>
-                <div id="item-3-1">
-                  <h5>Item 3-1</h5>
-                  <p>...</p>
-                </div>
-                <div id="item-3-2">
-                  <h5>Item 3-2</h5>
-                  <p>...</p>
-                </div>
-              </div>
+        <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tableIndex="0">
+        <div className='row'><br></br></div>
+        <div class="row">
+                    
+          <div class="col-4">
+            <div id="list-example" class="list-group">
+              <a class="list-group-item list-group-item-action" href="#list-item-1">Solicitação</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-2">Retorno</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-3">Contrato</a>
+              <a class="list-group-item list-group-item-action" href="#list-item-4">Garantias</a>
             </div>
           </div>
-
+          <div class="col-8">
+            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+              <h4 id="list-item-1">Solicitação</h4>
+              <p>SolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitação</p>
+              <h4 id="list-item-2">Retorno</h4>
+              <p>RetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetorno</p>
+              <h4 id="list-item-3">Contrato</h4>
+              <p>ContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContrato</p>
+              <h4 id="list-item-4">Garantias</h4>
+              <p>GarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantias</p>
+            </div>
           </div>
-        
-
+        </div>
 
         </div>
-        <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact" tabIndex="0"> 
-        <div className='position-relative top-50 start-50 translate-middle'>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <div className='row'><br></br></div>
-        <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
-        
-        
+        <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tableIndex="0">
+          
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          
+          
+          
+          <div className='position-relative top-50 start-50 translate-middle'>
+          <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
+          </div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          <div className='row'><br></br></div>
+          
+
         </div>
-      
-        
-      </div>  
+
+
+      </div>
+
+      <div className='row'><br></br></div> 
+
       <footer>
       <div className="card">
         <div className="card-body">
+          
         <div className='row'><br></br></div>
               <div className="container text-center">
                 <div className='row'>
@@ -164,6 +128,6 @@ export default function Home() {
     </div>
     <p className="card-text text-center"><small className="text-muted">Criado por Jove.py</small></p>
     </div>
-    </div>
+    
   )
 }
