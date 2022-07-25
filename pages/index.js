@@ -11,7 +11,7 @@ const myLoader = ({ src, width, quality }) => {
 export default function Home() {
   return (
     <div>
-      <div className='text-center p-2'>
+      <div className='text-right p-2'>
       
       <nav>
         <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
@@ -42,10 +42,10 @@ export default function Home() {
         </div>
         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tableIndex="0">
         <div className='row'><br></br></div>
-        <div className="row">
-                    
+        <div className="row">            
           <div className="col-4">
             <div id="list-example" className="list-group">
+              
               <a className="list-group-item list-group-item-action" href="#list-item-1">Solicitação</a>
               <a className="list-group-item list-group-item-action" href="#list-item-2">Retorno</a>
               <a className="list-group-item list-group-item-action" href="#list-item-3">Contrato</a>
@@ -53,19 +53,19 @@ export default function Home() {
             </div>
           </div>
           <div className="col-8">
+            
             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" className="scrollspy-example" tabIndex="0">
               <h4 id="list-item-1">Solicitação</h4>
-              <p>SolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitaçãoSolicitação</p>
+              <p>Solicitação Solicitação Solicitação Solicitação Solicitação Solicitação Solicitação Solicitação </p>
               <h4 id="list-item-2">Retorno</h4>
-              <p>RetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetornoRetorno</p>
+              <p>Retorno Retorno Retorno Retorno Retorno Retorno Retorno Retorno Retorno Retorno Retorno Retorno </p>
               <h4 id="list-item-3">Contrato</h4>
-              <p>ContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContratoContrato</p>
+              <p>Contrato Contrato Contrato Contrato Contrato Contrato Contrato Contrato Contrato Contrato Contrato </p>
               <h4 id="list-item-4">Garantias</h4>
-              <p>GarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantiasGarantias</p>
+              <p>Garantias Garantias Garantias Garantias Garantias Garantias Garantias Garantias Garantias </p>
             </div>
           </div>
         </div>
-
         </div>
         <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tableIndex="0">
           
@@ -80,7 +80,7 @@ export default function Home() {
           
           
           
-          <div className='position-relative top-50 start-50 translate-middle'>
+          <div className='position-relative top-50 start-50 translate-middle text-center'>
           <button className="btn btn-outline-primary" type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Envie-me uma mensagem</button>
           </div>
           <div className='row'><br></br></div>
