@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </nav>
       <div className="tab-content" id="nav-tabContent">
-        <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">        
+        <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabIndex="0">        
         <div className='row'><br></br></div> 
         <div className="card mb-3">
           <div className="row g-0">
