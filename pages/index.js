@@ -40,7 +40,7 @@ export default function Home() {
 
         </div>
         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabIndex="0">
-          <div className='p-2'>
+          <div className='p-2 text-right'>
 
           <div className='row'><br></br></div> 
            <div className="row">
