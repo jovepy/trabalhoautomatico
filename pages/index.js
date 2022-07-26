@@ -61,7 +61,8 @@ export default function Home() {
               <h4 id="list-item-2">Retorno</h4>
               <p>Perante a individualidade de cada processo, uma análise sobre a viabilidade da automação é realizada e o retorno ao cliente será executado em até 5 dias úteis. Nesse retorno constará um planejamento prévio do projeto, acentuando-se as possíveis dificuldades, bem como as possíveis soluções e o preço global do projeto.</p>
               <h4 id="list-item-3">Contrato</h4>
-              <p>Clique aqui para visualizar nosso contrato padrão.</p>
+              <p>
+              Clique aqui para visualizar nosso contrato padrão.</p>
               <h4 id="list-item-4">Garantias</h4>
               <p>Conforme estabelecido em nosso contrato, na seção x, item y, explicita-se as garantias</p>
             </div>
