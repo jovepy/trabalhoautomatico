@@ -57,13 +57,13 @@ export default function Home() {
             
             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" className="scrollspy-example" tabIndex="0">
               <h4 id="list-item-1">Solicitação</h4>
-              <p>Solicitação Solicitação Solicitação Solicitação Solicitação Solicitação Solicitação Solicitação </p>
+              <p>A solcitação do orçamento de uma automação personalizada pode ser feita via whatsapp ou pelo preenchimento deste formulário.</p>
               <h4 id="list-item-2">Retorno</h4>
-              <p>Retorno Retorno Retorno Retorno Retorno Retorno Retorno Retorno Retorno Retorno Retorno Retorno </p>
+              <p>Perante a individualidade de cada processo, uma análise sobre a viabilidade da automação é realizada e o retorno ao cliente será executado em até 5 dias úteis. Nesse retorno constará um planejamento prévio do projeto, acentuando-se as possíveis dificuldades, bem como as possíveis soluções e o preço global do projeto.</p>
               <h4 id="list-item-3">Contrato</h4>
-              <p>Contrato Contrato Contrato Contrato Contrato Contrato Contrato Contrato Contrato Contrato Contrato </p>
+              <p>Clique aqui para visualizar nosso contrato padrão.</p>
               <h4 id="list-item-4">Garantias</h4>
-              <p>Garantias Garantias Garantias Garantias Garantias Garantias Garantias Garantias Garantias </p>
+              <p>Conforme estabelecido em nosso contrato, na seção x, item y, explicita-se as garantias</p>
             </div>
           </div>
         </div>
