@@ -109,7 +109,7 @@ export default function Home() {
 
       <div className='row'><br></br></div> 
 
-      <footer ClassName='text-center'>
+      <footer className='text-center'>
       <div className="card">
         <div className="card-body">
           
