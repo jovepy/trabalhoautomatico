@@ -11,7 +11,12 @@ const myLoader = ({ src, width, quality }) => {
 export default function Home() {
   return (
     <div>
-        
+      <div>
+          <Head>
+          <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+          <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+          </Head>
+      </div>
       <div className='text-left p-2'>
       
       <nav>
@@ -104,7 +109,7 @@ export default function Home() {
 
       <div className='row'><br></br></div> 
 
-      <footer>
+      <footer ClassName='text-center'>
       <div className="card">
         <div className="card-body">
           
