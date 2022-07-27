@@ -17,6 +17,7 @@ export default function Home() {
           <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
           </Head>
       </div>
+      <body>
       <div className='text-left p-2'>
       
       <nav>
@@ -41,7 +42,6 @@ export default function Home() {
               <div className='row'><br></br></div>
                 <h5 className="card-title text-start">Automação de processos operacionais com Python</h5>
                 <p className="card-text text-start align-middle">A empresa descreve o processo operacional, analisamos o caso e, se for viável, automatizamos o processo. Simples, prático e Pythônico.</p>
-          
               </div>
             </div>
           </div>
@@ -138,6 +138,7 @@ export default function Home() {
       </footer>
     </div>
     <p className="card-text text-center"><small className="text-muted">Criado por Jove.py</small></p>
+    </body>
     </div>
     
   )
