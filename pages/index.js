@@ -11,13 +11,7 @@ const myLoader = ({ src, width, quality }) => {
 export default function Home() {
   return (
     <div>
-      <div>
-      <Head>
-      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-      </Head>
-      </div>
-
+        
       <div className='text-left p-2'>
       
       <nav>
@@ -42,6 +36,7 @@ export default function Home() {
               <div className='row'><br></br></div>
                 <h5 className="card-title text-start">Automação de processos operacionais com Python</h5>
                 <p className="card-text text-start align-middle">A empresa descreve o processo operacional, analisamos o caso e, se for viável, automatizamos o processo. Simples, prático e Pythônico.</p>
+          
               </div>
             </div>
           </div>
@@ -50,7 +45,7 @@ export default function Home() {
         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tableIndex="0">
         <div className='row'><br></br></div>
         <div className="row">            
-          <div className="col-4 p-2 text-right">
+          <div className="col-4 p-2 text-center">
             <div id="list-example" className="list-group">
               <div className='text-sm-center d-inline-block text-truncate'>
               <a className="list-group-item list-group-item-action p-1" href="#list-item-1">Solicitação</a>
