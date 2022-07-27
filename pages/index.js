@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import Image from 'next/image';
 import Router from 'next/router';
-
+import Head from 'next/head'
 
 const myLoader = ({ src, width, quality }) => {
   return `./${src}?w=${width}&q=${quality || 75}`
@@ -11,7 +11,14 @@ const myLoader = ({ src, width, quality }) => {
 export default function Home() {
   return (
     <div>
-      <div className='text-right p-2'>
+      <div>
+          <Head>
+          <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+          <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+          </Head>
+      </div>
+      <body>
+      <div className='text-left p-2'>
       
       <nav>
         <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
@@ -43,7 +50,7 @@ export default function Home() {
         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tableIndex="0">
         <div className='row'><br></br></div>
         <div className="row">            
-          <div className="col-4 p-2 text-right">
+          <div className="col-4 p-2 text-center">
             <div id="list-example" className="list-group">
               <div className='text-sm-center d-inline-block text-truncate'>
               <a className="list-group-item list-group-item-action p-1" href="#list-item-1">Solicitação</a>
@@ -102,7 +109,7 @@ export default function Home() {
 
       <div className='row'><br></br></div> 
 
-      <footer>
+      <footer ClassName='text-center'>
       <div className="card">
         <div className="card-body">
           
@@ -131,6 +138,7 @@ export default function Home() {
       </footer>
     </div>
     <p className="card-text text-center"><small className="text-muted">Criado por Jove.py</small></p>
+    </body>
     </div>
     
   )
