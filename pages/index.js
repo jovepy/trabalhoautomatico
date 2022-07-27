@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import Image from 'next/image';
 import Router from 'next/router';
-
+import Head from 'next/head'
 
 const myLoader = ({ src, width, quality }) => {
   return `./${src}?w=${width}&q=${quality || 75}`
@@ -11,7 +11,14 @@ const myLoader = ({ src, width, quality }) => {
 export default function Home() {
   return (
     <div>
-      <div className='text-right p-2'>
+      <div>
+      <Head>
+      <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+      <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+      </Head>
+      </div>
+
+      <div className='text-left p-2'>
       
       <nav>
         <div className="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
