@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
 import Image from 'next/image';
 import Router from 'next/router';
-import Head from 'next/head'
+import Head from 'next/head';
 
 const myLoader = ({ src, width, quality }) => {
   return `./${src}?w=${width}&q=${quality || 75}`
