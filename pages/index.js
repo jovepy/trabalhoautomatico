@@ -12,9 +12,12 @@ export default function Home() {
   return (
     <div>
       <div>
-          <Head>
-          <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-          <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+          <Head>          
+            <title>Automação de Processos Operacionais com Python</title>
+              <meta charset="utf-8"></meta> 
+              <meta name="robots" content="index,follow"></meta>
+              <meta name="googlebot" content="index,follow"></meta>
+          
           </Head>
       </div>
       <body>
