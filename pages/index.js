@@ -70,7 +70,7 @@ export default function Home() {
       <a className="list-group-item list-group-item-action p-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Contrato</a>
     </div>
   </div>
-  <div className="col-sm-7 text-start">
+  <div className="col-sm-7 text-start align-middle">
     <div className="tab-content" id="nav-tabContent">
       <div className="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
       <div className='row'><br></br></div>
@@ -129,7 +129,6 @@ export default function Home() {
 
       </div>
 
-      <div className='row'><br></br></div> 
 
       <footer className='text-center'>
       <div className="card">
