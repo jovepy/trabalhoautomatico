@@ -12,8 +12,10 @@ export default function Home() {
   return (
     <div>
       <div>
-          <Head>          
-            <title>Automação de Processos Operacionais com Python</title>
+          <Head>        
+          
+            <title >Automação de Processos Operacionais com Python</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
               <meta charset="utf-8"></meta> 
               <meta name="robots" content="index,follow"></meta>
               <meta name="googlebot" content="index,follow"></meta>
@@ -40,11 +42,15 @@ export default function Home() {
             </div>
             <div className="col-md-8">
               <div className="card-body align-middle ">
-              <div className='row'><br></br></div>
-              <div className='row'><br></br></div>
-              <div className='row'><br></br></div>
-                <h5 className="card-title text-start">Automação de processos operacionais com Python</h5>
-                <p className="card-text text-start align-middle">A empresa descreve o processo operacional, analisamos o caso e, se for viável, automatizamos o processo. Simples, prático e Pythônico.</p>
+                <h5 className="card-title text-start p-4">Automação de processos operacionais com Python</h5>
+                <p className="fw-light card-text text-start align-middle">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Extração de dados de documentos PDF, Imagens e WEB e insira automaticamente em sistemas WEB.</li>
+                  <li class="list-group-item">Transforme métodos operacionais em processos automáticos.</li>
+                  <li class="list-group-item">Otimize processos complexos.</li>
+                </ul>
+                  
+                </p>
               </div>
             </div>
           </div>
@@ -53,30 +59,47 @@ export default function Home() {
         <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tableIndex="0">
         <div className='row'><br></br></div>
         <div className="row">            
-          <div className="col-4 p-2 text-center">
-            <div id="list-example" className="list-group">
-              <div className='text-sm-center d-inline-block text-truncate'>
-              <a className="list-group-item list-group-item-action p-1" href="#list-item-1">Solicitação</a>
-              <a className="list-group-item list-group-item-action p-1" href="#list-item-2">Retorno</a>
-              <a className="list-group-item list-group-item-action p-1" href="#list-item-3">Contrato</a>
-              <a className="list-group-item list-group-item-action p-1" href="#list-item-4">Garantias</a>
-              </div>
-            </div>
-          </div>
-          <div className="col-6 p-2">
-            
-            <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" className="scrollspy-example" tabIndex="0">
-              <h4 id="list-item-1">Solicitação</h4>
-              <p>A solcitação do orçamento de uma automação personalizada pode ser feita via whatsapp ou pelo preenchimento deste formulário.</p>
-              <h4 id="list-item-2">Retorno</h4>
-              <p>Perante a individualidade de cada processo, uma análise sobre a viabilidade da automação é realizada e o retorno ao cliente será executado em até 5 dias úteis. Nesse retorno constará um planejamento prévio do projeto, acentuando-se as possíveis dificuldades, bem como as possíveis soluções e o preço global do projeto.</p>
-              <h4 id="list-item-3">Contrato</h4>
-              <p type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')} >
+          <div className='container-fluid p-4'>
+        
+          <div class="row">
+  <div class="col-4 p-2 text-center">
+    <div class="list-group" id="list-tab" role="tablist">
+      <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Solicitação</a>
+      <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Retorno</a>
+      <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Garantias</a>
+      <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Contrato</a>
+    </div>
+  </div>
+  <div class="col-6 p-4 text-start">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+
+      <p> A solcitação do orçamento de uma automação personalizada pode ser feita via <a type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>whatsapp o</a>
+       u pelo preenchimento deste formulário. </p>
+
+      </div>
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+
+      Perante a individualidade de cada processo, uma análise sobre a viabilidade da automação é realizada e o retorno ao cliente será executado em até 5 dias úteis. Nesse retorno constará um planejamento prévio do projeto, acentuando-se as possíveis dificuldades, bem como as possíveis soluções e o preço global do projeto.
+
+      </div>
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+
+      Conforme estabelecido em nosso contrato, na seção x, item y, explicita-se as garantias
+
+
+
+      </div>
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">.
+      
+      <p type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')} >
               <b>Clique aqui</b> para visualizar nosso contrato padrão.</p>
-              <h4 id="list-item-4">Garantias</h4>
-              <p>Conforme estabelecido em nosso contrato, na seção x, item y, explicita-se as garantias</p>
-            </div>
-          </div>
+              
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
         </div>
         </div>
         <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tableIndex="0">
