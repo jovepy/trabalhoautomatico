@@ -89,8 +89,7 @@ export default function Home() {
       </div>
       <div className="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
       <div className='row'><br></br></div>
-      <p type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')}>
-              <b>Clique aqui</b> para visualizar nosso contrato padrão.</p>
+      <p type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')}> <b>Clique aqui</b> para visualizar nosso contrato padrão.</p>
               
       </div>
     </div>
