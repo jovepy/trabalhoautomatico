@@ -45,11 +45,11 @@ export default function Home() {
                 <h5 className="card-title text-start p-4">Automação de processos operacionais com Python</h5>
                 <p className="fw-light card-text text-start align-middle">
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item">Extração de dados de documentos PDF, Imagens e WEB e insira automaticamente em sistemas WEB.</li>
-                  <li className="list-group-item">Transforme métodos operacionais em processos automáticos.</li>
-                  <li className="list-group-item">Otimize processos complexos.</li>
+                  <li className="list-group-item">Extração de dados de documentos PDF, Imagens e sites;</li>
+                  <li className="list-group-item">Insira dados de papéis em sistemas automaticamente;</li>
+                  <li className="list-group-item">Transforme métodos operacionais em processos automáticos;</li>
+                  <li className="list-group-item">Otimize processos complexos;</li>
                 </ul>
-                  
                 </p>
               </div>
             </div>
@@ -62,37 +62,34 @@ export default function Home() {
           <div className='container-fluid p-4'>
         
           <div className="row">
-  <div className="col-4 p-2 text-center">
+  <div className="col-sm-4 text-center text-truncate">
     <div className="list-group" id="list-tab" role="tablist">
-      <a className="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Solicitação</a>
-      <a className="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Retorno</a>
-      <a className="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Garantias</a>
-      <a className="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Contrato</a>
+      <a className="list-group-item list-group-item-action active p-2" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Solicitação</a>
+      <a className="list-group-item list-group-item-action p-2" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile p-2">Retorno</a>
+      <a className="list-group-item list-group-item-action p-2" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Garantias</a>
+      <a className="list-group-item list-group-item-action p-2" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Contrato</a>
     </div>
   </div>
-  <div className="col-6 p-4 text-start">
+  <div className="col-sm-7 text-start">
     <div className="tab-content" id="nav-tabContent">
       <div className="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-
-      <p> A solcitação do orçamento de uma automação personalizada pode ser feita via <a type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>whatsapp o</a>
-       u pelo preenchimento deste formulário. </p>
+      <div className='row'><br></br></div>
+      <p> A solcitação do orçamento de uma automação personalizada pode ser feita via <b type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Whatsapp</b> ou pelo preenchimento deste formulário.</p>
 
       </div>
       <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-
-      Perante a individualidade de cada processo, uma análise sobre a viabilidade da automação é realizada e o retorno ao cliente será executado em até 5 dias úteis. Nesse retorno constará um planejamento prévio do projeto, acentuando-se as possíveis dificuldades, bem como as possíveis soluções e o preço global do projeto.
+      <div className='row'><br></br></div>
+      <p>Perante a individualidade de cada processo, uma análise sobre a viabilidade da automação é realizada e o retorno ao cliente será executado em até 5 dias úteis. Nesse retorno constará um planejamento prévio do projeto, acentuando-se as possíveis dificuldades, bem como as possíveis soluções e o preço global do projeto.</p>
 
       </div>
       <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
-
-      Conforme estabelecido em nosso contrato, na seção x, item y, explicita-se as garantias
-
-
+      <div className='row'><br></br></div>
+      <p>Conforme estabelecido em nosso contrato, na seção x, item y, explicita-se as garantias</p>
 
       </div>
-      <div className="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">.
-      
-      <p type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')} >
+      <div className="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+      <div className='row'><br></br></div>
+      <p type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')}>
               <b>Clique aqui</b> para visualizar nosso contrato padrão.</p>
               
       </div>
