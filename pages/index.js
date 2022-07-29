@@ -87,10 +87,10 @@ export default function Home() {
       <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
       <div className='row'><br></br></div>
       
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">O ressarcimento do valor pago pode ser feito de forma proporcional ao projeto desenvolvido, tendo como referência o cronograma vigente do contrato.</li>
-        <li class="list-group-item">A manutenção e tratamento de erros é válida por três meses após a entrega do projeto.</li>
-        <li class="list-group-item">Confire todas as garantias, direitos, deveres e obrigações dessa prestação de serviço em nosso <b type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')}> Contrato</b></li>      
+      <ul className="list-group list-group-flush">
+        <li className="list-group-item">O ressarcimento do valor pago pode ser feito de forma proporcional ao projeto desenvolvido, tendo como referência o cronograma vigente do contrato.</li>
+        <li className="list-group-item">A manutenção e tratamento de erros é válida por três meses após a entrega do projeto.</li>
+        <li className="list-group-item">Confire todas as garantias, direitos, deveres e obrigações dessa prestação de serviço em nosso <b type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')}> Contrato</b></li>      
       </ul>
 
       </div>
