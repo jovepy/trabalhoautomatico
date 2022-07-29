@@ -76,7 +76,7 @@ export default function Home() {
     <div className="tab-content" id="nav-tabContent">
       <div className="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
       <div className='row'><br></br></div>
-      <p> A solcitação do orçamento de uma automação personalizada pode ser feita via <b type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Whatsapp</b> ou pelo preenchimento deste formulário.</p>
+      <p> A solcitação do orçamento de uma automação personalizada pode ser feita via <b type="button" onClick={() => Router.push('https://api.whatsapp.com/send?phone=+5583998775808&text=Olá!!')}>Whatsapp</b> ou pelo preenchimento deste <b type="button" onClick={() => Router.push('https://docs.google.com/forms/d/e/1FAIpQLSerVowSRjT87Lpk0wQcztx97Ww7orV7Suudu7zo9qxoHssOnQ/viewform')}>Formulário</b>.</p>
 
       </div>
       <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
@@ -86,12 +86,17 @@ export default function Home() {
       </div>
       <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
       <div className='row'><br></br></div>
-      <p>Conforme estabelecido em nosso contrato, na seção x, item y, explicita-se as garantias</p>
+      
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">O ressarcimento do valor pago pode ser feito de forma proporcional ao projeto desenvolvido, tendo como referência o cronograma vigente do contrato.</li>
+        <li class="list-group-item">A manutenção e tratamento de erros é válida por três meses após a entrega do projeto.</li>
+        <li class="list-group-item">Confire todas as garantias, direitos, deveres e obrigações dessa prestação de serviço em nosso <b type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')}> Contrato</b></li>      
+      </ul>
 
       </div>
       <div className="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
       <div className='row'><br></br></div>
-      <p type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')}> <b>Clique aqui</b> para visualizar nosso contrato padrão.</p>
+      <p> <b type="button" onClick={() => Router.push('https://drive.google.com/file/d/1AjsH_WpHDTAfC8Gi2x2qvUKv3Amr-GJP/view?usp=sharingy')}> Clique aqui</b> para visualizar nosso contrato padrão.</p>
               
       </div>
     </div>
